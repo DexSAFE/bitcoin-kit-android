@@ -2,7 +2,7 @@ package io.dexnet.bitcoincore.core
 
 import io.dexnet.bitcoincore.storage.FullTransaction
 import io.dexnet.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
+import io.dexnet.hdwalletkit.HDWallet.Purpose
 import java.util.Stack
 
 fun List<FullTransaction>.inTopologicalOrder(): List<FullTransaction> {

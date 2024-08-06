@@ -112,10 +112,10 @@ import io.dexnet.bitcoincore.transactions.scripts.ScriptType
 import io.dexnet.bitcoincore.utils.AddressConverterChain
 import io.dexnet.bitcoincore.utils.Base58AddressConverter
 import io.dexnet.bitcoincore.utils.PaymentAddressParser
-import io.horizontalsystems.hdwalletkit.HDExtendedKey
-import io.horizontalsystems.hdwalletkit.HDWallet
-import io.horizontalsystems.hdwalletkit.HDWalletAccount
-import io.horizontalsystems.hdwalletkit.HDWalletAccountWatch
+import io.dexnet.hdwalletkit.HDExtendedKey
+import io.dexnet.hdwalletkit.HDWallet
+import io.dexnet.hdwalletkit.HDWalletAccount
+import io.dexnet.hdwalletkit.HDWalletAccountWatch
 
 class BitcoinCoreBuilder {
 

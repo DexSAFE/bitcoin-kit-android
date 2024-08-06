@@ -5,7 +5,7 @@ import io.dexnet.bitcoincore.models.Transaction
 import io.dexnet.bitcoincore.models.TransactionOutput
 import io.dexnet.bitcoincore.serializers.TransactionSerializer
 import io.dexnet.bitcoincore.storage.InputToSign
-import io.horizontalsystems.hdwalletkit.Utils
+import io.dexnet.hdwalletkit.Utils
 
 class SchnorrInputSigner(
     private val hdWallet: IPrivateWallet

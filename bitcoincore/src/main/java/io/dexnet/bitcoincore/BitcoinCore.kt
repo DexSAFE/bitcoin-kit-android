@@ -45,7 +45,7 @@ import io.dexnet.bitcoincore.utils.AddressConverterChain
 import io.dexnet.bitcoincore.utils.DirectExecutor
 import io.dexnet.bitcoincore.utils.IAddressConverter
 import io.dexnet.bitcoincore.utils.PaymentAddressParser
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
+import io.dexnet.hdwalletkit.HDWallet.Purpose
 import io.reactivex.Single
 import java.util.Date
 import java.util.concurrent.Executor

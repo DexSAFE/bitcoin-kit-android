@@ -27,7 +27,7 @@ import io.dexnet.bitcoincore.storage.TransactionWithBlock
 import io.dexnet.bitcoincore.storage.UnspentOutput
 import io.dexnet.bitcoincore.transactions.builder.MutableTransaction
 import io.dexnet.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.HDKey
+import io.dexnet.hdwalletkit.HDKey
 
 interface IStorage {
 
