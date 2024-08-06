@@ -2,7 +2,7 @@ package io.dexnet.bitcoincore.core
 
 import io.dexnet.bitcoincore.models.PublicKey
 import io.dexnet.hdwalletkit.HDWallet
-import io.dexnet.a.HDWalletAccountWatch
+import io.dexnet.hdwalletkit.HDWalletAccountWatch
 
 class WatchAccountWallet(private val hdWallet: HDWalletAccountWatch, override val gapLimit: Int): IAccountWallet {
 
